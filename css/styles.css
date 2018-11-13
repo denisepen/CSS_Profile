@@ -1,3 +1,148 @@
-body {
-  background: lightgreen;
+/* Color Palette
+#4A4E69 -grayish blue
+#2B193D - dark purple
+#093824 - evergreen
+#003459 - med blue
+#011638 - navy blue
+ */
+
+/*Global Styles
+ */
+
+ /* apply a natural box layout model to all elements, but allowing components to change */
+html {
+  box-sizing: border-box;
+}
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+ body {
+  font-family: 'Open Sans', sans-serif;
+  margin: 0
+ }
+
+
+
+h1, h2 {
+  font-family: 'Charmonman', cursive;
+}
+
+h1 {
+font-size: 60px;
+}
+
+h2 {
+  font-size: 40px;
+  margin-top: 0;
+}
+
+h3 {
+  margin: 0;
+}
+
+ a {
+   color: red;
+ }
+
+ a:hover {
+   text-decoration: none;
+ }
+
+.content-wrap {
+  max-width: 950px;
+  margin: 0 auto;
+  padding: 50px;
+}
+
+.clearfix {
+   overflow: auto;
+}
+
+h2, p {
+  margin: 0
+}
+
+.col-wide {
+  width: 70%;
+  float: left;
+  padding-left: 20px;
+  min-height: 175px;
+  /* border: 2px solid black; */
+}
+
+.col-narrow {
+  width: 30%;
+  float: left;
+  /* min-height: 175px; */
+  /* border: 2px solid black; */
+}
+
+
+/* Header & Footer */
+
+header, footer {
+  background: #4A4E69;
+  color: white;
+}
+
+/* header */
+
+header {
+  /* text-align: center; */
+}
+
+header h1, header h2 {
+  color: lightblue;
+  margin: 0;
+}
+
+h2 {
+  /* clear: both; */
+}
+
+.profile-img {
+  /* width: 250px; */
+  border-radius: 50%;
+  /* float: left;
+  margin-right: 30px; */
+}
+
+/* footer */
+
+footer {
+  text-align: center;
+}
+
+.contact-info a {
+  padding: 12px;
+  display: inline-block
+}
+
+
+
+/* Work Experience  */
+
+.work {
+background: #2B193D;
+color: white;
+}
+
+h3 ~ p {
+  margin: 0;
+}
+
+.job-description p:first-of_type {
+  margin: 0;
+}
+
+.job-description {
+  margin-bottom: 25px;
+}
+
+/* Educaiton */
+
+.education {
+  background: #093824;
+  color: white;
 }
